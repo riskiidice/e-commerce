@@ -1,0 +1,14 @@
+1.Product
+	--> Single Product(detail view)
+	--> Social Sharing buttons
+	--> List Product(list view)
+	--> Inventory Control + Viewable
+	--> Search Products
+
+2.Checkout
+	--> Cart (shopping cart)
+	--> Auth User & Guest User
+	--> Shipping & Billing Address
+
+3.Payment 
+	--> Integrate with braintree

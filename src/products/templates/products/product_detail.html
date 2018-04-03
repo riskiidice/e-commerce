@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+
+<div class="col-sm-8">
+<h2>{{ object.title }}</h2>
+
+{% if object.productimage_set.count > 0 %}
+	<div>
+		{% for img in object.productimage_set.all %}
+		  <img src="{{ img.image.url }}" class="img-responsive" />
+		{% endfor %}
+	</div>
+{% endif %}
+
+<p class="lead">{{object.description}}</p>
+</div>
+
+<div class="col-sm-4">
+<h3>{{ object.price}}</h3>
+{% if object.variation_set.count > 0 %}
+	<select name="" id="" class="form-control">
+		{% for var_obj in object.variation_set.all %}	
+			<option value="{{ var_obj.id}}">{{var_obj.title}}</option>
+		{% endfor %}
+</select>
+{% endif %}
+<br>
+<a href="">Add to Cart</a>
+<br>
+<hr>
+<h3>Related Product</h3>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,646 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"the",
+				"thesecondstageshow@gmail.com\t(settings.py)"
+			],
+			[
+				"Ture",
+				"True\tinstance"
+			],
+			[
+				"al",
+				"album_id\t(models.py)"
+			],
+			[
+				"dis",
+				"display:inline"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"rev",
+				"reverse_lazy\tfunction"
+			],
+			[
+				"Uda",
+				"UpdateView"
+			],
+			[
+				"albu",
+				"album.id"
+			],
+			[
+				"music",
+				"music:detail\t(models.py)"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"mus",
+				"music:detail\t(models.py)"
+			],
+			[
+				"album",
+				"album_logo\t(models.py)"
+			],
+			[
+				"sty",
+				"style88"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"app",
+				"app-message\t(main.js)"
+			],
+			[
+				"consoe",
+				"console.log"
+			],
+			[
+				"contex",
+				"context"
+			],
+			[
+				"ur",
+				"urlpatterns"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"j",
+				"join\tfunction"
+			],
+			[
+				"ME",
+				"MEDIA_ROOT\t(urls.py)"
+			],
+			[
+				"Hi",
+				"Highlight"
+			],
+			[
+				"High",
+				"Highlight\t(models.py)"
+			],
+			[
+				"model",
+				"models"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"pa",
+				"path\tmodule"
+			],
+			[
+				"STATIC",
+				"STATIC_URL"
+			],
+			[
+				"viw",
+				"views"
+			],
+			[
+				"mode",
+				"models"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"col-",
+				"col-md-2"
+			],
+			[
+				"Al",
+				"AlbumDelete\t(views.py)"
+			],
+			[
+				"De",
+				"DeleteView"
+			],
+			[
+				"tem",
+				"template_name"
+			],
+			[
+				"conte",
+				"content\t(_nav.html)"
+			],
+			[
+				"as",
+				"as_view"
+			],
+			[
+				"navb",
+				"navbar-left"
+			],
+			[
+				"va",
+				"value\tAttr"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"ca",
+				"CASCADE\tfunction"
+			],
+			[
+				"MODE",
+				"models"
+			],
+			[
+				"cla",
+				"class\tNew Class"
+			],
+			[
+				"ma",
+				"max_length"
+			],
+			[
+				"Ht",
+				"HttpResponseRedirect"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"clas",
+				"class"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"s",
+				"stylesheet"
+			],
+			[
+				"con",
+				"context_data"
+			],
+			[
+				"po",
+				"post_delete"
+			],
+			[
+				"post",
+				"post_update\t(views.py)"
+			],
+			[
+				"Po",
+				"PostAdmin"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"Session",
+				"Session::flash\tFlash an Item in the Session"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"crea",
+				"created\t(PostController.php)"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"btn",
+				"btn-block"
+			],
+			[
+				"Sess",
+				"Session::flash\tFlash an Item in the Session"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"stor",
+				"store\t(PostController.php)"
+			],
+			[
+				"ROute",
+				"Route::post\tBasic Post Route."
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"ac",
+				"active\t(about.blade.php)"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"col",
+				"col-md-12"
+			],
+			[
+				"ao",
+				"about\t(web.php)"
+			],
+			[
+				"fu",
+				"fullname\t(PagesController.php)"
+			],
+			[
+				"Pa",
+				"PagesController@getContact"
+			],
+			[
+				"Route",
+				"Route::get\tBasic Get Route."
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lara",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 719.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/12-creating-a-complete-user-system/docker-compose.yml",
+		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/10-using-our-first-flask-extension/requirements.txt",
+		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/08-testing-and-code-quality/docker-compose.yml",
+		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/08-testing-and-code-quality/Dockerfile",
+		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/08-testing-and-code-quality/requirements.txt",
+		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/08-testing-and-code-quality/snakeeyes/tests/conftest.py",
+		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/06-creating-a-base-flask-app/config/settings.py",
+		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/06-creating-a-base-flask-app/config/__init__.py",
+		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/06-creating-a-base-flask-app/.env",
+		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/06-creating-a-base-flask-app/Dockerfile",
+		"/Applications/MAMP/htdocs/peacehq/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_addgallery_page/static/plupload-2.1.1/i18n/kk.min.js",
+		"/Users/tikumporn/Documents/Spring_Workspace/spring-boot-ng-tasks/src/main/frontend/node_modules/inquirer/lib/prompts/checkbox.js",
+		"/Users/tikumporn/Documents/Python_Workspace/trydjango19/trydjango19_music/trydjango19_music/urls.py",
+		"/Users/tikumporn/Documents/Python_Workspace/trydjango19/trydjango19_music/music/urls.py",
+		"/Users/tikumporn/Documents/Python_Workspace/trydjango19/trydjango19_music/music/static/music/css/styles.css",
+		"/Users/tikumporn/Documents/Python_Workspace/trydjango19/trydjango19_music/music/templates/music/index.html",
+		"/Users/tikumporn/Documents/Python_Workspace/trydjango19/trydjango19/trydjango19_blog/trydjango19_blog/urls.py",
+		"/Users/tikumporn/Documents/JAVA_Workspace/data-h2/src/main/resources/data-h2.sql",
+		"/Users/tikumporn/Documents/JAVA_Workspace/front-end-project/src/App.vue",
+		"/Users/tikumporn/Documents/JAVA_Workspace/front-end-project/src/Message.vue",
+		"/Users/tikumporn/Documents/JAVA_Workspace/front-end-project/src/main.js",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/templates/main.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/templates/new.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/templates/partials/new.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/urls.py",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music_site/settings.py",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music_site/urls.py",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/blog_app/settings.py",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/blog_app/urls.py",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/admin.py",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/templates/partials/_highlight.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/templates/index.html",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/templates/album_form.html",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/templates/form-template.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/templates/partials/_nav.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/templates/partials/_news.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/templates/partials/_news_tab.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/templates/partials/_trestimonals.html",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/views_old.py",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/views.py",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/templates/partials/_header.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog_app/posts/templates/partials/_javascripts.html",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/models.py",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/templates/index.html",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/urls.py",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/urls.pyc",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/admin.py",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/templates/album_detail.html",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/templates/partials/_messages.html",
+		"/Applications/MAMP/htdocs/etc/images/psd_files/register.php",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/templates/partials/_nav.html",
+		"/Users/tikumporn/Desktop/etc_app_2017-03-26.sql",
+		"/Users/tikumporn/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/templates/all_albums.html",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/templates/partials/_header.html",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/templates/partials/_javascripts.html",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/static/css/theme.min.css",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/static/css/bootstrap.min.css",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/static/js/bootstrap.min.js",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/templates/main.html",
+		"/Users/tikumporn/Documents/Python_Workspace/music_site/music/templates/partials/_message.html",
+		"/Users/tikumporn/Library/Application Support/Sublime Text 3/Packages/FTPSync/FTPSync.sublime-settings",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/posts/forms.py",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/templates/main.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/templates/lists.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/blog/urls.py",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/posts/models.py",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/templates/partials/_nav.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/templates/partials/_header.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/templates/partials/lists.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/templates/partials/_slider.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/templates/partials/_footer.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/templates/post_detail.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/templates/partials/_javascripts.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/templates/patials/_header.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/templates/index.html",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/blog/settings.py",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/posts/admin.py",
+		"/Users/tikumporn/Documents/Python_Workspace/blog/blog/crud.md",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/partials/_head.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/.gitignore",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/public/css/styles.css",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/posts/index.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/posts/show.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/partials/_messages.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/posts/create.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/routes/web.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/main.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/routes/api.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/partials/messages.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/config/session.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/public/css/parsley.css",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/pages/welcome.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/pages/about.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/pages/contact.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/public/js/parsley.min.js",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/config/app.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/composer.json",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/database/migrations/2017_03_04_175141_create_posts_table.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/.env",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/app/Post.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/config/database.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/package.json",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/partials/_javascripts.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/partials/_footer.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/partials/_nav.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/_head.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/app/Http/Controllers/PagesController.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/app/Http/Controllers/Controller.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/about.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/contact.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/gulpfile.js",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/gulpfile.js.gulpfile.js",
+		"/Users/tikumporn/Documents/MEAN_Workspace/MEAN-stack-authentication-Original/gulpfile.js",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/app/User.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/welcome.blade.php",
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/app/Console/Kernel.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ecommerce2.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app",
+				"snakeeyes/app.py"
+			],
+			[
+				"postcon",
+				"app/Http/Controllers/PostController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
