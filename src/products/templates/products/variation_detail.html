@@ -4,8 +4,8 @@
 <div class="row">
 
 <div class="col-sm-8">
-<h2>{{ object.product.title }}</h2>
-<h2>{{ object.title }}</h2>
+<h2>{{ object.product.title }} ({{ object.title }})</h2>
+<hr>
 
 {% if object.product.productimage_set.count > 0 %}
 	<div>
@@ -14,10 +14,12 @@
 		{% endfor %}
 	</div>
 {% endif %}
+</div>
+<div class="col-sm-4">
+	<p class="lead">{{object.description}}</p>
 
-<p class="lead">{{object.description}}</p>
+<h2>Inventory</h2>
 <hr>
-<h3>Inventory</h3>
 <form action="" method="POST">
 {% csrf_token %}
 <div class="form-group">
@@ -32,6 +34,7 @@
 	<label for="">Amount</label>
 	{{ form.inventory}}	
 </div>
+<button class="btn btn-info btn-lg btn-block" type="submit">Update Inventory</button>
 </form>
 </div>
 </div>

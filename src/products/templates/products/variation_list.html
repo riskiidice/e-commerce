@@ -1,12 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-<table class="table">
-	{% for object in object_list %}
-	<tr>
-		<td><a href="{{ object.get_absolute_url}}">{{ object.title}}</a></td>
-	</tr>
-	{% endfor %} 
-</table>
 
+<form action="" method="post">
+	{% csrf_token %}
+	{{ formset.management_form }}
+	{% for form in formset %}
+	<div class="form-group">
+		<label for="">{{form.instance.product.title}} ({{form.instance.title}})</label>
+		{{ form.as_p }}
+	</div>
+	{% endfor %}
+
+	<button class="btn btn-success btn-lg btn-block">Update</button>
+</form>
 {% endblock %}

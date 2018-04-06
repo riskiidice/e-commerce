@@ -1,5 +1,23 @@
 {% extends "base.html" %}
+{% block jquery %}
+function setPrice(){
+	var price = $('.variation_select option:selected').attr('data-price');
+	var sale_price = $('.variation_select option:selected').attr('data-sale-price');
 
+	if(sale_price != "None"){
+		$('#price').html("<h3>"+sale_price+"   <small class='og_price'>"+price+"</small>"+" &#3647;</h3>");
+	}else{
+		$('#price').text(price);
+	}
+	 
+	}
+setPrice();
+
+$('.variation_select').change(function(){
+	setPrice();
+});
+
+{% endblock %}
 {% block content %}
 <div class="row">
 
@@ -18,16 +36,34 @@
 </div>
 
 <div class="col-sm-4">
-<h3>{{ object.price}}</h3>
+<h3 id="price">{{ object.variation_set.first.price}} 	</h3>
 {% if object.variation_set.count > 0 %}
-	<select name="" id="" class="form-control">
+
+	<select name="" id="" class="form-control variation_select">
 		{% for var_obj in object.variation_set.all %}	
-			<option value="{{ var_obj.id}}">{{var_obj.title}}</option>
+			<option data-sale-price="{{var_obj.sale_price}}" data-price="{{var_obj.price}}" value="{{ var_obj.id}}">{{var_obj.title}}</option>
 		{% endfor %}
 </select>
+{% else %}
+<h3 id="price">
+	{% if object.variation_set.first.sale_price %}
+		{{ object.variation_set.first.sale_price}}
+		{{ object.variation_set.first.price}}
+	{% else %}
+		{{ object.variation_set.first.price}}
+</h3>
+	{% endif %}
 {% endif %}
 <br>
 <a href="">Add to Cart</a>
+<br>
+<hr>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http://CodingForEntrepreneurs.com/">
+  <img src="http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19759.png" width="32" alt="">
+</a>
+<a href="https://twitter.com/home?status=I'm%20going%20to%20learn%20to%20Code...%20Come%20build%20an%20web%20apsp%20with%20me!%20%23CFE%20and%20@justinmitchel%20http://codingforentrepreneurs.com/">
+  <img src="http://download.seaicons.com/download/i82970/limav/flat-gradient-social/limav-flat-gradient-social-twitter.ico" width="32" alt="">
+</a>
 <br>
 <hr>
 <h3>Related Product</h3>

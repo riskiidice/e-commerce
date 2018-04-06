@@ -6,31 +6,47 @@ from django.http import Http404
 from django.shortcuts import render,get_object_or_404
 from django.utils import timezone
 from django.http import HttpResponse
+from django.shortcuts import redirect
+
 
 # Create your views here.
-
+from .mixins import StaffRequiredMixin, LoginRequiredMixin
 from .models import Product, Variation
-from .forms import VariationInventoryForm
+from .forms import VariationInventoryForm,VariationInventoryFormSet
 
-class VariationListView(ListView):
+class VariationListView(StaffRequiredMixin,ListView):
 	model = Variation
-		
-class VariationDetailView(DetailView):
-	model = Variation
-
-	# def get_queryset(self, *args, **kwargs):
-	# 	qs = super(VariationDetailView, self).get_queryset(*args, **kwargs)
-	# 	if self.kwargs['id']:
-	# 		return  self.model.objects.filter(product_id=self.kwargs['id'])
-	# 	return qs
+	queryset = Variation.objects.all()
 
 	def get_context_data(self, *args,**kwargs):
-	    context = super(VariationDetailView, self).get_context_data(**kwargs)
-	    data = self.model.objects.filter(id = self.kwargs['pk'])
-	    context['form'] = VariationInventoryForm()
-	    context['data'] = data
+	    context = super(VariationListView, self).get_context_data(*args,**kwargs)
+	    # context['form'] = VariationInventoryForm(initial={'price': data.price , 'sale_price': data.sale_price, 'inventory': data.inventory})
+	    context['formset'] = VariationInventoryFormSet(queryset=self.get_queryset())
 	    return context
 
+	def get_queryset(self, *args, **kwargs):
+		product_pk = self.kwargs['pk']
+		if product_pk is not None:
+			product = get_object_or_404(Product, pk=product_pk)
+			queryset = self.model.objects.filter(product=product)
+		return queryset
+
+	def post(self,request,*args,**kwargs):
+		formset = VariationInventoryFormSet(self.request.POST, self.request.FILES)
+		print(self.request.POST)
+		if formset.is_valid():
+			formset.save(commit=False)
+			for form in formset:
+				new_item = form.save(commit=False)
+				product_pk = self.kwargs['pk']
+				product = get_object_or_404(Product,pk=product_pk)
+				new_item.product = product
+				new_item.save()
+
+			messages.success(self.request, "You Inventory is updated")
+			return redirect('products')
+
+		raise Http404		
 
 
 

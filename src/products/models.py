@@ -4,6 +4,17 @@ from django.db.models.signals import post_save
 from django.utils.text import slugify
 
 # Create your models here.
+
+class Category(models.Model):
+	title = models.CharField(max_length=120 , unique=True)
+	slug  = models.SlugField(unique=True)
+	description = models.TextField(null=True, blank=True)
+	active =  models.BooleanField(default=True)
+	timestamp = models.DateTimeField(auto_now_add=True)
+
+	def __str__(self):
+		return self.title
+
 class ProductQuerySet(models.query.QuerySet):
 		def active(self):
 			return self.filter(active=True)
@@ -20,6 +31,9 @@ class Product(models.Model):
 		description = models.TextField(blank=True, null=True)
 		price = models.DecimalField(decimal_places=2, max_digits=1000)
 		active = models.BooleanField(default=True)
+		categories = models.ManyToManyField(Category)
+		default = models.ForeignKey(Category, related_name="default_category", null=True, blank=True)
+
 		objects = ProductManager()
 
 		def __str__(self):
@@ -27,6 +41,7 @@ class Product(models.Model):
 
 		def get_absolute_url(self):
 			return reverse("product_detail", kwargs={"pk": self.pk})
+
 
 def image_upload_to(instance, filename):
 	title = instance.product.title
@@ -40,11 +55,9 @@ class ProductImage(models.Model):
 	  image = models.ImageField(upload_to=image_upload_to)
 
 	  def __str__(self):
-	  	return self.product.title
-
+	  	return self.product.title	
 		
 
-	
 class Variation(models.Model):
 		product = models.ForeignKey(Product)
 		title =  models.CharField(max_length=120)

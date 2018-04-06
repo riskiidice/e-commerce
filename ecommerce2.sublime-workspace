@@ -4,6 +4,202 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"contrib\t(urls.py)"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"Htt",
+				"Http404"
+			],
+			[
+				"red",
+				"redirect"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"for",
+				"formset"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"V",
+				"VariationInventoryFormSet"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"cont",
+				"context"
+			],
+			[
+				"Va",
+				"VariationInventoryForm"
+			],
+			[
+				"q",
+				"queryset"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"query",
+				"queryset"
+			],
+			[
+				"self",
+				"self.request"
+			],
+			[
+				"object",
+				"objects"
+			],
+			[
+				"Pro",
+				"ProductManager"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"product",
+				"product_pk"
+			],
+			[
+				"produc",
+				"product"
+			],
+			[
+				"Via",
+				"VariationDetailView"
+			],
+			[
+				"H",
+				"HttpResponse"
+			],
+			[
+				"Var",
+				"VariationDetail\t(views.py)"
+			],
+			[
+				"new",
+				"new_item"
+			],
+			[
+				"Prod",
+				"Product"
+			],
+			[
+				"form",
+				"formset"
+			],
+			[
+				"model",
+				"modelformset_factory"
+			],
+			[
+				"mode",
+				"models\t(views.py)"
+			],
+			[
+				"m",
+				"model\tstatement"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"slu",
+				"slugify"
+			],
+			[
+				"cre",
+				"created"
+			],
+			[
+				"var",
+				"var_obj"
+			],
+			[
+				"g",
+				"get_absolute_url"
+			],
+			[
+				"max",
+				"max_digits"
+			],
+			[
+				"De",
+				"DecimalField"
+			],
+			[
+				"clas",
+				"class\tNew Class"
+			],
+			[
+				"ob",
+				"objects"
+			],
+			[
+				"Pru",
+				"ProductManager"
+			],
+			[
+				"Produ",
+				"ProductQuerySet\tclass"
+			],
+			[
+				"ge",
+				"get_absolute_url\t(models.py)"
+			],
+			[
+				"produ",
+				"product_detail\t(urls.py)"
+			],
+			[
+				"obje",
+				"object.title"
+			],
+			[
+				"conte",
+				"context\tget_context_data"
+			],
+			[
+				"prd",
+				"products\t(views.py)"
+			],
+			[
+				"Product",
+				"ProductDetailView\t(views.py)"
+			],
+			[
+				"pri",
+				"product_detail.html\t(views.py)"
+			],
+			[
+				"vi",
+				"views\t(views.py)"
+			],
+			[
+				"prod",
+				"products\t(views.py)"
+			],
+			[
 				"the",
 				"thesecondstageshow@gmail.com\t(settings.py)"
 			],
@@ -68,10 +264,6 @@
 				"border-radius"
 			],
 			[
-				"re",
-				"relative"
-			],
-			[
 				"hei",
 				"height"
 			],
@@ -120,10 +312,6 @@
 				"Highlight\t(models.py)"
 			],
 			[
-				"model",
-				"models"
-			],
-			[
 				"st",
 				"style\tAttr"
 			],
@@ -140,14 +328,6 @@
 				"views"
 			],
 			[
-				"mode",
-				"models"
-			],
-			[
-				"max",
-				"max_length"
-			],
-			[
 				"col-",
 				"col-md-2"
 			],
@@ -156,16 +336,8 @@
 				"AlbumDelete\t(views.py)"
 			],
 			[
-				"De",
-				"DeleteView"
-			],
-			[
 				"tem",
 				"template_name"
-			],
-			[
-				"conte",
-				"content\t(_nav.html)"
 			],
 			[
 				"as",
@@ -178,10 +350,6 @@
 			[
 				"va",
 				"value\tAttr"
-			],
-			[
-				"get",
-				"get_object_or_404"
 			],
 			[
 				"ca",
@@ -204,24 +372,12 @@
 				"HttpResponseRedirect"
 			],
 			[
-				"for",
-				"form"
-			],
-			[
-				"clas",
-				"class"
-			],
-			[
 				"d",
 				"django"
 			],
 			[
 				"s",
 				"stylesheet"
-			],
-			[
-				"con",
-				"context_data"
 			],
 			[
 				"po",
@@ -284,10 +440,6 @@
 				"input\tTag"
 			],
 			[
-				"form",
-				"form-control"
-			],
-			[
 				"te",
 				"textarea\tTag"
 			],
@@ -323,6 +475,52 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/products/urls.py",
+			"settings":
+			{
+				"buffer_size": 596,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/views.py",
+			"settings":
+			{
+				"buffer_size": 3320,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/forms.py",
+			"settings":
+			{
+				"buffer_size": 624,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/mixins.py",
+			"settings":
+			{
+				"buffer_size": 57,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "mixins.py"
+			}
+		},
+		{
+			"file": "src/products/templates/products/variation_list.html",
+			"settings":
+			{
+				"buffer_size": 391,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -331,10 +529,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 167.0,
-		"last_filter": "install",
+		"height": 392.0,
+		"last_filter": "pac",
 		"selected_items":
 		[
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pacek",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -352,10 +566,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"instal",
 				"Package Control: Install Package"
 			],
@@ -368,7 +578,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 719.0
+		"width": 596.0
 	},
 	"console":
 	{
@@ -386,8 +596,40 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/ecommerce2",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/ecommerce2/settings",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/products",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/products/templates",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/products/templates/products",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/templates"
+	],
 	"file_history":
 	[
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/products/templates/products/product_list.html",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/products/templates/products/variation_detail.html",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/ecommerce2/settings/local.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/products/models.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/products/templates/products/variation_list.html",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/ecommerce2/settings/base.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/products/forms.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/products/admin.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/products/templates/products/product_detail.html",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/templates/navbar.html",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/ecommerce2/urls.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/templates/base.html",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/products/urls.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/todo.txt",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/trydjango18/urls.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/trydjango18/settings/production.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/trydjango18/settings/local.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/trydjango18/settings/base.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/trydjango18/old_settings.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/manage.py",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/.gitignore",
+		"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src/trydjango18/wsgi.py",
 		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/12-creating-a-complete-user-system/docker-compose.yml",
 		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/10-using-our-first-flask-extension/requirements.txt",
 		"/Users/tikumporn/Documents/Development_Workspace/FlaskCourse/bsawf/08-testing-and-code-quality/docker-compose.yml",
@@ -493,19 +735,7 @@
 		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/package.json",
 		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/partials/_javascripts.blade.php",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/partials/_footer.blade.php",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/partials/_nav.blade.php",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/_head.blade.php",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/app/Http/Controllers/PagesController.php",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/app/Http/Controllers/Controller.php",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/about.blade.php",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/contact.blade.php",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/gulpfile.js",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/gulpfile.js.gulpfile.js",
-		"/Users/tikumporn/Documents/MEAN_Workspace/MEAN-stack-authentication-Original/gulpfile.js",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/app/User.php",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/welcome.blade.php",
-		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/app/Console/Kernel.php"
+		"/Users/tikumporn/Documents/PHP_Workspace/laravel_project/blog/resources/views/partials/_footer.blade.php"
 	],
 	"find":
 	{
@@ -513,9 +743,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 101.0,
 		"where_history":
 		[
+			"/Users/tikumporn/Documents/Development_Workspace/e-commerce-2/src"
 		]
 	},
 	"find_state":
@@ -523,6 +754,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"product_pk",
+			"get_absp",
+			"def get_context_data(self, *args,**kwargs):\n\t    context = super(VariationDetailView, self).get_context_data(**kwargs)\n\t    context['form'] = VariationInventoryForm()\n\t    return context",
+			"    ",
+			"trydjango18"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -530,6 +766,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"ecommerce2"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -540,8 +777,201 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/products/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"SL.58.region_keys":
+							[
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/products/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1120,
+								1120
+							]
+						],
+						"settings":
+						{
+							"SL.31.region_keys":
+							[
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 118.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/products/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"SL.71.region_keys":
+							[
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/products/mixins.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"SL.91.region_keys":
+							[
+							],
+							"auto_name": "mixins.py",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/products/templates/products/variation_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"SL.90.region_keys":
+							[
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -551,7 +981,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -638,7 +1068,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 215.0,
+	"side_bar_width": 182.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

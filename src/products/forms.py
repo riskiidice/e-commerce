@@ -1,10 +1,12 @@
 from django import forms
+from django.forms.models import modelformset_factory
+
 from .models import Variation
 
 class VariationInventoryForm(forms.ModelForm):
-	price = forms.IntegerField(widget=forms.NumberInput(attrs={'class': 'form-control'}))
-   	sale_price = forms.IntegerField(widget=forms.NumberInput(attrs={'class': 'form-control'}))
-	inventory = forms.IntegerField(widget=forms.NumberInput(attrs={'class': 'form-control'}))  
+	price = forms.DecimalField(widget=forms.NumberInput(attrs={'class': 'form-control'}))
+	inventory = forms.DecimalField(widget=forms.NumberInput(attrs={'class': 'form-control'}))
+	sale_price = forms.DecimalField(widget=forms.NumberInput(attrs={'class': 'form-control'}))
 
 	class Meta():
 		model = Variation
@@ -14,3 +16,6 @@ class VariationInventoryForm(forms.ModelForm):
 			"inventory"
 		]
 
+
+
+VariationInventoryFormSet = modelformset_factory(Variation, form=VariationInventoryForm, extra=0)
