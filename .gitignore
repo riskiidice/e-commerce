@@ -3,4 +3,4 @@ include/
 lib/
 .DS_STORE
 .Python
-.__pycache__/*
+__pycache__/*
