@@ -15,6 +15,9 @@ class Category(models.Model):
 	def __str__(self):
 		return self.title
 
+	def get_absolute_url(self):
+			return reverse("category-detail", kwargs={"slug": self.slug})
+		
 class ProductQuerySet(models.query.QuerySet):
 		def active(self):
 			return self.filter(active=True)
@@ -26,6 +29,12 @@ class ProductManager(models.Manager):
 	def all(self, *args, **kwargs):
 		return self.get_queryset().active()
 
+	def get_related(self, instance):
+		product_one = self.get_queryset().filter(categories__in=instance.categories.all())
+		product_two = self.get_queryset().filter(default=instance.default)
+		qs = (product_one | product_two ).distinct()
+		return qs
+
 class Product(models.Model):
 		title = models.CharField(max_length=120)
 		description = models.TextField(blank=True, null=True)
@@ -36,12 +45,21 @@ class Product(models.Model):
 
 		objects = ProductManager()
 
+		class Meta:
+			ordering = ["-title"]
+						
+
 		def __str__(self):
 			return self.title
 
 		def get_absolute_url(self):
 			return reverse("product_detail", kwargs={"pk": self.pk})
 
+		def get_image_url(self):
+			img = self.productimage_set.first()
+			if img:
+				return img.image.url
+			return img
 
 def image_upload_to(instance, filename):
 	title = instance.product.title
@@ -49,6 +67,28 @@ def image_upload_to(instance, filename):
 	file_extension = filename.split(".")[1]
 	new_filename = "%s.%s" %(instance.id, file_extension)
 	return "products/%s/%s" %(slug, new_filename)
+
+def image_upload_to_featured(instance, filename):
+	title = instance.product.title
+	slug = slugify(title)
+	file_extension = filename.split(".")[1]
+	new_filename = "%s.%s" %(instance.id, file_extension)
+	return "products/%s/featured/%s" %(slug, new_filename)
+
+class ProductFeatured(models.Model):
+	product = models.ForeignKey(Product)
+	image = models.ImageField(upload_to=image_upload_to_featured)
+	title = models.CharField(max_length=120, null=True, blank=True)
+	text = models.CharField(max_length=120, null=True, blank=True)
+	text_right = models.BooleanField(default=False)
+	show_price = models.BooleanField(default=False)
+	active = models.BooleanField(default=True)
+
+	def __str__(self):
+		return self.product.title
+
+
+
 
 class ProductImage(models.Model):
 	  product = models.ForeignKey(Product)
@@ -75,6 +115,14 @@ class Variation(models.Model):
 				return self.sale_price
 			else:
 				return self.price
+
+		def get_html_price(self):
+			if self.sale_price is not None:
+				html_text = "<span class='sale-price'>%s &#3647;</span> <span class='og_price'>%s </span>" %(self.sale_price, self.price)
+				return html_text
+			else:
+				html_text = "<span class='sale-price'>%s &#3647;</span> " %(self.price)
+				return html_text
 
 		def get_absolute_url(self):
 			return self.product.get_absolute_url()

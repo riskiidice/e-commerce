@@ -67,6 +67,14 @@ $('.variation_select').change(function(){
 <br>
 <hr>
 <h3>Related Product</h3>
+	<div class="row">
+	{% for product in related %}
+	<div class="col-sm-6">
+			{% include "products/product_thumbnail.html" with product=product %}
+	</div>
+	 {% cycle '' '</div><div class="row">'%}
+	{% endfor %}
+	</div>
 </div>
 </div>
 {% endblock %}

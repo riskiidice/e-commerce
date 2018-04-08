@@ -4,14 +4,17 @@ from django.shortcuts import render
 
 from .forms import ContactForm, SignUpForm
 from .models import SignUp
+from products.models import ProductFeatured
 
 # Create your views here.
 def home(request):
 	title = 'Sign Up Now'
+	featured_image = ProductFeatured.objects.all()
 	form = SignUpForm(request.POST or None)
 	context = {
 		"title": title,
-		"form": form
+		"form": form,
+		"featured_image": featured_image
 	}
 	if form.is_valid():
 		#form.save()

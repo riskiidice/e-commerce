@@ -1,0 +1,11 @@
+<div class="thumbnail text-center">
+	{% if object.get_image_url %}
+		<a href="{{ object.get_absolute_url}}"><img src="{{object.get_image_url}}" alt="" class="img-responsive"></a>
+	{% endif %}
+		<a href="{{ object.get_absolute_url}}">{{ object.title}}</a>
+
+	{% if price == "True" %}
+		{{ product.variation_set.first.get_html_price | safe}}
+	{% endif %}
+			
+</div>
